@@ -52,3 +52,15 @@ function showArrays(){
         circles.appendChild(circleElement);
     });
 }
+
+// class
+class Circle {
+    constructor(radius, square){
+        this.radius = radius;
+        this.square = square;
+    }
+
+    print(){
+        return "Radius: " + this.radius + " Fläche: " + this.square;
+    }
+}
